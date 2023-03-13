@@ -1,0 +1,78 @@
+body {
+    background-image: url(./img/lace.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h5 {
+    color: #fff;
+}
+
+.icons-social {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.icons-social a {
+    padding: 0 12px;
+}
+
+.name {
+    color: #fff;
+}
+
+.love {
+    color: #fff !important;
+}
+
+.mt-5 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.mt-5 img {
+    border-radius: 50%;
+}
+
+.btn-outline-dark {
+    background: rgb(145, 114, 208);
+    background: linear-gradient(0deg, rgba(145, 114, 208, 0.76234243697479) 100%, rgba(147, 112, 219, 0.5830707282913166) 100%);
+    color: #FFF;
+    border-color: #FFF;
+}
+
+.endereco{
+    border: 1px solid #fff;
+    background: rgb(145, 114, 208);
+    background: linear-gradient(0deg, rgba(145, 114, 208, 0.76234243697479) 100%, rgba(147, 112, 219, 0.5830707282913166) 100%);
+    color: #FFF;
+    padding: 10px;
+    margin-bottom: 5px;
+}
+
+.endereco h3{
+    text-align: center;
+}
+
+.endereco a{
+    text-align: center;
+    text-decoration: none;
+    color: #FFF;
+}
+
+
+/*----------------- Mail-------------------- */
+#email {
+    text-decoration: none;
+    float: right;
+    color: #fff;
+}
+
+@media (max-width: 479px) {
+    .footer {
+        margin-top: 35% !important;
+    }
+}
